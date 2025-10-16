@@ -11,7 +11,9 @@
 
 
 
-# Multi-Dimensional Array (Nested List)
+
+
+'''Multi-Dimensional Array (Nested List)'''
 
 
 # matrix = [
@@ -24,7 +26,8 @@
 
 
 
-# Jagged Array (List of Lists with Different Lengths)
+
+'''Jagged Array (List of Lists with Different Lengths)'''
 
 
 # jagged = [
@@ -37,7 +40,8 @@
 
 
 
-#  Dynamic Array (Modifiable List)
+
+'''Dynamic Array (Modifiable List)'''
 
 
 # arr = [10, 20, 30]
@@ -49,19 +53,17 @@
 
 
 
-# 1D Array
+'''1D Array'''
 
 
-# What is a 1D Array?
+'''What is a 1D Array?'''
+
 
 # arr = [10, 20, 30, 40, 50]  
 # print(arr) 
 
 
 
-
-
-#  Indexing and Slicing on 1D Array
 
 
 # arr = [10, 20, 30, 40, 50]
@@ -74,10 +76,10 @@
 
 
 
-# Negative indexing starts from the end (-1 is the last element).
+'''Negative indexing starts from the end (-1 is the last element).'''
 
 
-# Slicing (Extracting a Subarray)
+'''Slicing (Extracting a Subarray)'''
 
 
 # arr = [10, 20, 30, 40, 50, 60, 70]
@@ -92,15 +94,18 @@
 
 
 
-# CRUD Operations on 1D Array
+'''CRUD Operations on 1D Array'''
 
-# Create (Adding Elements)
+
+'''Create (Adding Elements)'''
+
 
 # arr = [] 
 # arr.append(10)  
 # arr.append(20)
 # arr.append(30)
 # print(arr) 
+
 
 
 
@@ -115,7 +120,9 @@
 
 
 
-# Read (Accessing Elements)
+
+'''Read (Accessing Elements)'''
+
 
 # arr = [10, 20, 30, 40, 50, 60, 70]
 # print(arr[2]) 
@@ -139,7 +146,7 @@
 
 
 
-#  Update (Modifying Elements)
+'''Update (Modifying Elements)'''
 
 
 # arr = [10, 20, 30, 40, 50, 60, 70]
@@ -149,7 +156,8 @@
 
 
 
-# Delete (Removing Elements)
+
+'''Delete (Removing Elements)'''
 
 
 # arr = [10, 20, 30, 40, 50, 60, 70]
@@ -187,10 +195,10 @@
 
 
 
-# Sorting
+'''Sorting'''
 
 
-# Sorting Using sort() (In-Place)
+'''Sorting Using sort() (In-Place)'''
 
 
 # arr = [50, 10, 40, 30, 20]
@@ -202,7 +210,7 @@
 
 
 
-# Sorting Using sorted() (Returns a New List)
+'''Sorting Using sorted() (Returns a New List)'''
 
 
 # arr = [50, 10, 40, 30, 20]
@@ -216,7 +224,7 @@
 
 
 
-#  Sorting with Custom Key (Using lambda)
+'''Sorting with Custom Key (Using lambda)'''
 
 
 # arr = [53, 27, 81, 42, 19]
@@ -228,7 +236,8 @@
 
 
 
-# Sorting Strings (Alphabetically)
+
+'''Sorting Strings (Alphabetically)'''
 
 
 # names = ["Zara", "Alice", "John", "Bob"]
@@ -240,7 +249,8 @@
 
 
 
-# Sorting a List of Tuples
+
+'''Sorting a List of Tuples'''
 
 
 # students = [("Alice", 90), ("Bob", 75), ("Charlie", 85)]
@@ -252,10 +262,11 @@
 
 
 
-# 2D Array
+
+'''2D Array'''
 
 
-# Creating a 2D Array (Matrix)
+''' Creating a 2D Array (Matrix)'''
 
 
 # matrix = [
@@ -269,7 +280,8 @@
 
 
 
-# Accessing Elements (Indexing)
+
+'''Accessing Elements (Indexing)'''
 
 
 # matrix = [
@@ -285,7 +297,7 @@
 
 
 
-# Slicing a 2D Array
+'''Slicing a 2D Array'''
 
 
 # matrix = [
@@ -300,7 +312,7 @@
 
 
 
-# CRUD Operations on 2D Arrays
+'''CRUD Operations on 2D Arrays'''
 
 
 # matrix = [
@@ -328,7 +340,7 @@
 
 
 
-#  Read (Accessing Data)
+'''Read (Accessing Data)'''
 
 
 # matrix = [
@@ -343,8 +355,8 @@
 
 
 
-#  Update (Modifying Elements)
 
+'''Update (Modifying Elements)'''
 
 
 # matrix = [
@@ -358,9 +370,11 @@
 
 
 
-# Delete (Removing Elements)
 
-# Remove a Specific Element
+'''Delete (Removing Elements)'''
+
+
+'''Remove a Specific Element'''
 
 
 # matrix = [
@@ -374,7 +388,10 @@
 
 
 
-#  Remove a Row
+
+
+'''Remove a Row'''
+
 
 # matrix = [
 #     [1, 2, 3],  
@@ -387,7 +404,10 @@
 
 
 
-# Remove a Column from Each Row
+
+
+'''Remove a Column from Each Row'''
+
 
 # matrix = [
 #     [1, 2, 3],  
@@ -402,11 +422,12 @@
 
 
 
-# Looping Through a 2D Array
+
+'''Looping Through a 2D Array'''
 
 
+'''Row-Wise Traversal'''
 
-# Row-Wise Traversal
 
 # matrix = [
 #     [1, 2, 3],  
@@ -422,7 +443,9 @@
 
 
 
-# Column-Wise Traversal
+
+
+'''Column-Wise Traversal'''
 
 
 # matrix = [
@@ -438,9 +461,12 @@
 
 
 
-# Sorting a 2D Array
 
-# Sorting Each Row
+
+'''Sorting a 2D Array'''
+
+
+'''Sorting Each Row'''
 
 
 # matrix = [
@@ -454,7 +480,10 @@
 
 
 
-#  Sorting by First Column
+
+
+
+'''Sorting by First Column'''
 
 
 # matrix = [
