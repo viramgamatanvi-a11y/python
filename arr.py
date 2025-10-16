@@ -1,9 +1,9 @@
-# Array and it's Types
+'''Array and it's Types'''
 
 
-# Types of Arrays Using Lists
+'''Types of Arrays Using Lists'''
 
-# One-Dimensional Array (1D List)
+'''One-Dimensional Array (1D List)'''
 
 
 # arr = [10, 20, 30, 40, 50]  
