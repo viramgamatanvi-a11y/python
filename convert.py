@@ -1,8 +1,11 @@
-# list,tuple,set,string convert to other
+'''list,tuple,set,string convert to other'''
 
-# List
 
-# List convert to tuple
+'''List'''
+
+
+'''List convert to tuple'''
+
 
 # my_list=[1,2,3,4,'a','b']
 # my_tuple=tuple(my_list)
@@ -12,7 +15,9 @@
 
 
 
-# List convert to set
+
+'''List convert to set'''
+
 
 # my_list=[1,2,3,4,'a','b']
 # my_set=set(my_list)
@@ -22,7 +27,9 @@
 
 
 
-# List convert to String
+
+'''List convert to String'''
+
 
 # my_list=["T","a","n","v","i"]
 # my_string="".join(my_list)
@@ -33,9 +40,11 @@
 
 
 
-# Set
+'''Set'''
 
-# Set convert to tuple
+
+'''Set convert to tuple'''
+
 
 # my_set={1,2,3,4,'a','b'}
 # my_tuple=tuple(my_set)
@@ -44,7 +53,11 @@
 
 
 
-# Set convert to list
+
+
+
+'''Set convert to list'''
+
 
 # my_set={1,2,3,4,'a','b'}
 # my_list=list(my_set)
@@ -52,7 +65,12 @@
 # print(type(my_list))
 
 
-# Set convert to String
+
+
+
+
+'''Set convert to String'''
+
 
 # my_set={'apple', 'banana', 'cherry'}
 # my_string=",".join(my_set)
@@ -62,9 +80,12 @@
 
 
 
-# tuple
 
-# tuple convert to list
+'''tuple'''
+
+
+'''tuple convert to list'''
+
 
 # my_tuple=(1,2,3,4,'a','b')
 # my_list=list(my_tuple)
@@ -73,7 +94,11 @@
 
 
 
-# tuple convert to set
+
+
+
+'''tuple convert to set'''
+
 
 # my_tuple=(1,2,3,4,'a','b')
 # my_set=set(my_tuple)
@@ -82,7 +107,11 @@
 
 
 
-# tuple convert to string
+
+
+
+'''tuple convert to string'''
+
 
 # my_tuple=('1','2','3','4','a','b')
 # my_string="".join(my_tuple)
@@ -91,9 +120,13 @@
 
 
 
-# String
 
-# String convert to list
+
+'''String'''
+
+
+'''String convert to list'''
+
 
 # my_string="Hello"
 # my_list=list(my_string)
@@ -102,7 +135,11 @@
 
 
 
-# String convert to set
+
+
+
+'''String convert to set'''
+
 
 # my_string="Hello World"
 # my_set=set(my_string)
@@ -111,7 +148,11 @@
 
 
 
-# String convert to tuple
+
+
+
+'''String convert to tuple'''
+
 
 # my_string_value="apple,banana,cherry"
 # my_list=my_string_value.split(',')
@@ -121,16 +162,24 @@
 
 
 
-# dict 
 
-# dict convert to list
+
+'''dict'''
+ 
+
+'''dict convert to list'''
+
 
 # my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
 # list_of_items = list(my_dict.items())
 # print(list_of_items)
 
 
-# dict convert to set
+
+
+
+'''dict convert to set'''
+
 
 # my_dict = {'apple': 1, 'banana': 2, 'cherry': 3}
 # key_set = set(my_dict)
@@ -138,7 +187,10 @@
 
 
 
-# dict convert to tuple
+
+
+'''dict convert to tuple'''
+
 
 # my_dict = {'a': 1, 'b': 2, 'c': 3}
 # tuple_of_pairs = tuple(my_dict.items())

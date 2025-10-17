@@ -1,10 +1,14 @@
-# Collection Data types
+'''Collection Data types'''
 
-# str(String)
-# list 
-# tuple
-# set 
-# dict (dictionary)
+
+'''
+ str(String)
+ list 
+ tuple
+ set 
+ dict (dictionary)
+'''
+
 
 
 # name = "Python"      
@@ -21,7 +25,11 @@
 
 
 
-# String Operations
+
+
+
+'''String Operations'''
+
 
 # str1 = "Hello"
 # str2 = "World"
@@ -29,8 +37,14 @@
 # print(combined)
 
 
+
+
+
 # repeated = "Ha" * 3 
 # print(repeated)
+
+
+
 
 
 # text = "Python"
@@ -40,9 +54,15 @@
 # print(last_char)
 
 
+
+
+
 # text = "Python"
 # substring = text[1:4]
 # print(substring)
+
+
+
 
 
 # text = "Python"
@@ -51,34 +71,58 @@
 
 
 
-# String Methods
+
+
+'''String Methods'''
+
 
 # text = "Hello World"
 # print(text.lower())
+
+
+
 
 
 # text = "Hello World"
 # print(text.upper())  
 
 
+
+
+
 # text = "hello world"
 # print(text.title())
+
+
+
 
 
 # text = "hello world"
 # print(text.capitalize()) 
 
 
+
+
+
 # text = "   Hello World   "
 # print(text.strip())
+
+
+
 
 
 # text = "Hello World"
 # print(text.split())  
 
 
+
+
+
 # words = ['Hello', 'World']
 # print(' '.join(words))
+
+
+
 
 
 
@@ -87,37 +131,61 @@
 
 
 
+
+
 # text = "Hello World"
 # print(text.replace("World", "Python")) 
 
 
 
-# String formatting
 
 
-# 1. Using the % Operator
+'''String formatting'''
+
+
+'''1. Using the % Operator'''
+
+
 # name = "Alice"
 # age = 30
 # formatted_string = "My name is %s and I am %d years old." % (name, age)
 # print(formatted_string)
 
 
-# 2. Using str.format() Method
+
+
+
+
+'''2. Using str.format() Method'''
+
+
 # name = "Alice"
 # age = 30
 # formatted_string = "My name is {} and I am {} years old.".format(name, age)
 # print(formatted_string)
 
 
-# 3. Using f-Strings (Literal String Interpolation)
+
+
+
+'''3. Using f-Strings (Literal String Interpolation)'''
+
+
 # name = "Alice"
 # age = 30
 # formatted_string = f"My name is {name} and I am {age} years old."
 # print(formatted_string)
 
 
-# 4. Using Template Strings
-# from string import Template
+
+
+
+'''4. Using Template Strings'''
+
+
+'''from string import Template'''
+
+
 # name = "Alice"
 # age = 30
 # template = Template("My name is $name and I am $age years old.")
@@ -125,9 +193,14 @@
 # print(formatted_string)
 
 
-# 5. Using str.center() Method
 
-# Basic Example: Centering with Default Spaces
+
+
+'''5. Using str.center() Method'''
+
+
+'''Basic Example: Centering with Default Spaces'''
+
 
 # s = "hello"
 # centered = s.center(10)  
@@ -135,7 +208,10 @@
 
 
 
-# Centering with a Custom Fill Character
+
+
+'''Centering with a Custom Fill Character'''
+
 
 # s = "Python"
 # centered = s.center(20, '*') 
@@ -143,10 +219,14 @@
 
 
 
+
+
 # Centering with Insufficient Width
 # s = "hello, world!"
 # centered = s.center(5)  
 # print(f"'{centered}'")
+
+
 
 
 
@@ -159,9 +239,12 @@
 
 
 
-# String manipulation
 
-# String Concatenation
+'''String manipulation'''
+
+
+'''String Concatenation'''
+
 
 # greeting = "Hello"
 # name = "Alice"
@@ -169,12 +252,19 @@
 # print(combined_string)
 
 
-# String Formatting
+
+
+
+'''String Formatting'''
+
 
 # name = "Alice"
 # age = 30
 # formatted_string = f"{name} is {age} years old."
 # print(formatted_string)
+
+
+
 
 
 # name = "Alice"
@@ -183,13 +273,20 @@
 # print(formatted_string)
 
 
+
+
+
 # name = "Alice"
 # age = 30
 # formatted_string = "%s is %d years old." % (name, age)
 # print(formatted_string) 
 
 
-# Accessing Characters
+
+
+
+'''Accessing Characters'''
+
 
 # string1 = 'Hello, World!'
 # first_character = string1[0]
@@ -198,10 +295,14 @@
 # print(last_character)
 
 
-# String Slicing
 
 
-# Basic Slicing
+
+'''String Slicing'''
+
+
+'''Basic Slicing'''
+
 
 # text = "Hello, World!"
 # substring1 = text[0:5]
@@ -210,14 +311,22 @@
 # print(substring2) 
 
 
-# Using Step
+
+
+
+'''Using Step'''
+
 
 # text = "Hello, World!"
 # substring3 = text[0:13:2]
 # print(substring3)
 
 
-# Negative Indexing
+
+
+
+'''Negative Indexing'''
+
 
 # text = "Hello, World!"
 # substring4 = text[-6:-1]
@@ -227,7 +336,11 @@
 
 
 
-# Omitting Indices
+
+
+
+'''Omitting Indices'''
+
 
 # text = "Hello, World!"
 # substring6 = text[:5]
@@ -248,7 +361,11 @@
 
 
 
-# 1. Shallow Copy (Copies Values)
+
+
+
+'''1. Shallow Copy (Copies Values)'''
+
 
 # original_list = [1, 2, 3, 4, 5, 6]
 # shallow_copy = original_list.copy()
@@ -258,7 +375,10 @@
 
 
 
-# 2. Deep Copy (Copies Everything)
+
+
+'''2. Deep Copy (Copies Everything)'''
+
 
 # original_list = [1, 2, 3, 4, 5, 6]
 # deep_copy = original_list
