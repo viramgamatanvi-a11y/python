@@ -1,13 +1,16 @@
-# Primitive Data types
-
-# int (integer)
-# float (floating-point number)
-# str (string)
-# bool (boolean - True/False)
-# complex (complex number)
+'''Primitive Data types'''
 
 
-# Ex.1
+'''
+int (integer)
+float (floating-point number)
+str (string)
+bool (boolean - True/False)
+complex (complex number)
+'''
+
+
+
 # num=34
 # text="hello"
 # text2='hiii'
@@ -23,7 +26,10 @@
 # print(type(point)) 
 
 
-# Ex.2
+
+
+
+
 # print(int(34.5))
 # print(int(True))
 # print(str("hii"))
@@ -31,7 +37,10 @@
 # print(int(45))
 
 
-# Ex.3
+
+
+
+
 # print(float(34.4))
 # print(float(True))
 # print(str("hii"))
@@ -39,7 +48,10 @@
 # print(float(45))
 
 
-# Ex.4
+
+
+
+
 # print(bool(34.4))
 # print(bool(True))
 # print(bool("hii"))
@@ -47,7 +59,10 @@
 # print(bool(45))
 
 
-# Ex.5
+
+
+
+
 # print(str(34.4))
 # print(str(True))
 # print(str("hii"))
@@ -55,7 +70,11 @@
 # print(str(45))
 
 
-# Ex.6
+
+
+
+
+
 # print(bool(34.4))
 # print(bool(True))
 # print(bool("hii"))
@@ -66,21 +85,35 @@
 # print(bool(" "))
 
 
-# Ex.7
+
+
+
+
+
 # print(int(34.4))
 # print(float(34))
 
 
 
 
-# List data type
 
-# 1. Create
+
+''' List data type'''
+
+
+''' 1. Create'''
+
+
 
 # my_list = [1, 2, 3, 4, 5]
 # print(my_list)
 
-# 2. Read/Access
+
+
+
+
+'''2. Read/Access'''
+
 
 # my_list = [1, 2, 3, 4, 5]
 # first_element = my_list[0]  
@@ -88,11 +121,18 @@
 # print(first_element)
 # print(last_element)
 
-# 3. Update
+
+
+
+''' 3. Update'''
+
 
 # my_list = [1, 2, 3, 4, 5]
 # my_list.append(6)  
 # print(my_list)   
+
+
+
 
 
 # my_list = [1, 2, 3, 4, 5]
@@ -100,16 +140,25 @@
 # print(my_list) 
 
 
-# 4. Delete
+
+
+
+'''4. Delete'''
+
 
 # my_list = [10, 20, 30, 40, 50]
 # del my_list[2]
 # print(my_list)  
 
 
+
+
+
 # my_list = ['apple', 'banana', 'cherry', 'banana']
 # my_list.remove('banana')
 # print(my_list) 
+
+
 
 
 
@@ -121,11 +170,18 @@
 
 
 
-# Methods of List
+
+
+
+'''Methods of List'''
+
 
 # my_list = [1, 2, 3]
 # my_list.append(4)
 # print(my_list)  
+
+
+
 
 
 # my_list = [1, 2, 3]
@@ -133,14 +189,24 @@
 # print(my_list)
 
 
+
+
+
 # my_list = [1, 2, 3]
 # my_list.insert(1, 4)  
 # print(my_list)
 
 
+
+
+
 # my_list = [1, 2, 3, 2]
 # my_list.remove(2)
 # print(my_list) 
+
+
+
+
 
 
 # my_list = [1, 2, 3]
@@ -150,14 +216,26 @@
 # print(my_list)      
 
 
+
+
+
+
 # my_list = [10, 20, 30, 20]
 # index_of_20 = my_list.index(20) 
 # print(index_of_20)
 
 
+
+
+
+
 # my_list = [10, 20, 30, 20]
 # count_of_20 = my_list.count(20)
 # print(count_of_20)
+
+
+
+
 
 
 # my_list = [30, 10, 20]
@@ -166,14 +244,26 @@
 
 
 
+
+
+
+
 # my_list = [10, 20, 30]
 # my_list.reverse()
 # print(my_list)
 
 
+
+
+
+
 # my_list = [10, 20, 30]
 # copied_list = my_list.copy()
 # print(copied_list)
+
+
+
+
 
 
 # my_list = [1, 2, 3, 4, 5]
@@ -183,14 +273,24 @@
 
 
 
-# Tuple data type
 
-# 1. Create (C)
+
+
+
+'''Tuple data type'''
+
+
+'''1. Create (C)'''
+
 
 # my_tuple = (1, 2, 3, "hello", 4.5)
 
 
-# 2. Read (R) or Access
+
+
+
+'''2. Read (R) or Access'''
+
 
 # my_tuple = (1, 2, 3, "hello", 4.5)
 # first_element = my_tuple[0]  
@@ -199,16 +299,30 @@
 # print(second_element)
 
 
+
+
+
+
 # my_tuple = (1, 2, 3, "hello", 4.5)
 # subset = my_tuple[1:4]
 # print(subset)
 
 
-# Methods of Tuple
+
+
+
+
+
+'''Methods of Tuple'''
+
 
 # my_tuple = (1, 2, 3, 1, 1)
 # count_of_1 = my_tuple.count(1)
 # print(count_of_1) 
+
+
+
+
 
 
 # my_tuple = ('apple', 'banana', 'cherry')
@@ -216,9 +330,15 @@
 # print(index_of_banana)
 
 
-# Set data type
 
-# 1. Create
+
+
+
+'''Set data type'''
+
+
+'''1. Create'''
+
 
 # my_set = {1, 2, 3, 4}
 # print(my_set) 
@@ -226,11 +346,19 @@
 # print(another_set)
 
 
-# 2. Read
+
+
+
+
+'''2. Read'''
+
 
 # my_set = {1, 2, 3, 4}
 # print(1 in my_set) 
 # print(5 in my_set) 
+
+
+
 
 
 # my_set = {1, 2, 3, 4}
@@ -238,11 +366,19 @@
 #     print(item)
 
 
-# 3. Update
+
+
+
+
+''' 3. Update'''
+
 
 # my_set = {1, 2, 3, 4}
 # my_set.add(5)
 # print(my_set)
+
+
+
 
 
 # my_set = {1, 2, 3, 4}
@@ -250,11 +386,20 @@
 # print(my_set)
 
 
-# 4. Delete
+
+
+
+
+'''4. Delete'''
+
 
 # my_set = {1, 2, 3, 4, 5}
 # my_set.remove(3)
 # print(my_set)
+
+
+
+
 
 
 # my_set = {1, 2, 3, 4, 5}
@@ -262,9 +407,17 @@
 # print(my_set)
 
 
+
+
+
+
 # my_set = {1, 2, 3, 4, 5}
 # removed_element = my_set.pop()  
 # print(my_set)
+
+
+
+
 
 
 # my_set = {1, 2, 3, 4, 5}
@@ -273,11 +426,20 @@
 
 
 
-# Methods of Set
+
+
+
+
+'''Methods of Set'''
+
 
 # my_set = {1, 2, 3}
 # my_set.add(4)
 # print(my_set)
+
+
+
+
 
 
 # my_set = {1, 2, 3}
@@ -285,9 +447,17 @@
 # print(my_set)
 
 
+
+
+
+
 # my_set = {1, 2, 3}
 # my_set.discard(2)
 # print(my_set) 
+
+
+
+
 
 
 # my_set = {1, 2, 3}
@@ -295,9 +465,17 @@
 # print(my_set) 
 
 
+
+
+
+
 # my_set = {1, 2, 3}
 # my_set.clear()
 # print(my_set)
+
+
+
+
 
 
 # set1 = {1, 2, 3}
@@ -306,10 +484,18 @@
 # print(result)
 
 
+
+
+
+
 # set1 = {1, 2, 3}
 # set2 = {3, 4, 5}
 # set1.update(set2)
 # print(set1)
+
+
+
+
 
 
 # set1 = {1, 2, 3}
@@ -318,10 +504,18 @@
 # print(result)
 
 
+
+
+
+
 # set1 = {1, 2, 3}
 # set2 = {2, 3, 4}
 # set1.intersection_update(set2)
 # print(set1)
+
+
+
+
 
 
 # set1 = {1, 2, 3}
@@ -330,10 +524,18 @@
 # print(result)
 
 
+
+
+
+
 # set1 = {1, 2, 3}
 # set2 = {2, 3, 4}
 # set1.difference_update(set2)
 # print(set1) 
+
+
+
+
 
 
 # set1 = {1, 2, 3}
@@ -342,10 +544,18 @@
 # print(result)
 
 
+
+
+
+
 # set1 = {1, 2, 3}
 # set2 = {2, 3, 4}
 # set1.symmetric_difference_update(set2)
 # print(set1)
+
+
+
+
 
 
 # set1 = {1, 2}
@@ -353,9 +563,17 @@
 # print(set1.issubset(set2))
 
 
+
+
+
+
 # set1 = {1, 2, 3}
 # set2 = {1, 2}
 # print(set1.issuperset(set2))
+
+
+
+
 
 
 # set1 = {1, 2, 3}
@@ -364,7 +582,10 @@
 
 
 
-# Dictionary data type
+
+
+
+'''Dictionary data type'''
 
 
 # my_dict = {
@@ -378,12 +599,20 @@
 
 
 
+
+
+
+
 # my_dict = {
 #     "name": "Alice",
 #     "age": 25,
 #     "city": "New York"
 # }
 # print(my_dict.keys())
+
+
+
+
 
 
 
@@ -396,6 +625,10 @@
 
 
 
+
+
+
+
 # my_dict = {
 #     "name": "Alice",
 #     "age": 25,
@@ -405,12 +638,20 @@
 
 
 
+
+
+
+
 # my_dict = {
 #     "name": "Alice",
 #     "age": 25,
 #     "city": "New York"
 # }
 # print(my_dict.get("age")) 
+
+
+
+
 
 
 # my_dict = {
@@ -423,6 +664,10 @@
 # print(my_dict)  
 
 
+
+
+
+
 # my_dict = {
 #     "name": "Alice",
 #     "age": 25,
@@ -430,6 +675,10 @@
 # }
 # removed_value = my_dict.pop("age")
 # print(removed_value) 
+
+
+
+
 
 
 # my_dict = {
@@ -442,6 +691,9 @@
 
 
 
+
+
+
 # my_dict = {
 #     "name": "Alice",
 #     "age": 25,
@@ -449,6 +701,9 @@
 # }
 # print(my_dict.setdefault("gender", "Female"))
 # print(my_dict)  
+
+
+
 
 
 

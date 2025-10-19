@@ -1,12 +1,15 @@
-# Types of Loops
-
-# for loop
-# while loop
-# Nested loop
+'''Types of Loops'''
 
 
+'''
+for loop
+while loop
+Nested loop
+'''
 
-# 1. for Loop
+
+
+'''1. for Loop'''
 
 
 # for i in range(1, 6):
@@ -14,7 +17,9 @@
 
 
 
-# 2. while Loop
+
+
+'''2. while Loop'''
 
 
 # i = 1
@@ -24,7 +29,9 @@
 
 
 
-# 3. Nested Loop
+
+
+'''3. Nested Loop'''
 
 
 # for i in range(1, 4):
@@ -34,13 +41,17 @@
 
 
 
-# Working of while loop
+
+
+'''Working of while loop'''
 
 
 # i = 1  
 # while i <= 5:  
 #     print(i)  
 #     i += 1  
+
+
 
 
 
@@ -53,6 +64,8 @@
 #     num += 1  
 
 # print("The sum of numbers from 1 to 10 is:", sum)
+
+
 
 
 
@@ -72,6 +85,9 @@
 
 
 
+
+
+
 # while True: 
 #     user_input = input("Type 'exit' to stop: ")
 #     if user_input == "exit":
@@ -83,11 +99,16 @@
 
 
 
-# range() function
+
+
+
+'''range() function'''
 
 
 # for i in range(5):
 #     print(i)
+
+
 
 
 
@@ -98,14 +119,20 @@
 
 
 
+
+
 # for i in range(1, 11, 2):
 #     print(i)
 
 
 
 
+
+
 # for i in range(10, 0, -1):
 #     print(i)
+
+
 
 
 
@@ -117,8 +144,12 @@
 
 
 
+
+
 # for i in range(10, 0, -2):
 #     print(i)
+
+
 
 
 
@@ -129,8 +160,11 @@
 
 
 
+
+
 # for i in range (5,15,2):
 #     print(i)
+
 
 
 
@@ -145,8 +179,12 @@
 
 
 
+
+
 # for i in range(5):
 #     print("* * * * * ")
+
+
 
 
 
@@ -157,8 +195,12 @@
 
 
 
+
+
 # for i in range(1,6):
 #     print("i "*i)
+
+
 
 
 
@@ -167,10 +209,15 @@
 #     print(str(i)*5)
     
     
+    
+    
+    
 
 
 # for i in range(1,6):
 #     print(str(i)*i)
+
+
 
 
 
@@ -183,8 +230,12 @@
 
 
 
+
+
 # for i in range(5,1,-1):
 #     print("* "*i)
+    
+    
     
     
     
@@ -195,20 +246,24 @@
 
 
 
+
+
 # for i in range (15,5,-1):
 #     print(i)
 
 
 
 
-# Working of for loop
 
 
+''' Working of for loop'''
 
 
 # numbers = [1, 2, 3, 4, 5]
 # for num in numbers:
 #     print(num)
+
+
 
 
 
@@ -220,8 +275,12 @@
 
 
 
+
+
 # for i in range(1, 6):  
 #     print(i)
+
+
 
 
 
@@ -233,12 +292,15 @@
 
 
 
-# List Comprehension
 
+
+'''List Comprehension'''
 
 
 # squares = [x**2 for x in range(5)]
 # print(squares)
+
+
 
 
 
@@ -249,8 +311,12 @@
 
 
 
+
+
 # even_squares = [x**2 for x in range(10) if x % 2 == 0]
 # print(even_squares)
+
+
 
 
 
@@ -262,9 +328,13 @@
 
 
 
+
+
 # words = ["apple", "banana", "cherry"]
 # uppercase_words = [word.upper() for word in words]
 # print(uppercase_words)
+
+
 
 
 
@@ -277,10 +347,12 @@
 
 
 
-# Control Statements
 
 
-# 1. break Statement
+'''Control Statements'''
+
+
+''' 1. break Statement'''
 
 
 # for i in range(10):
@@ -291,7 +363,10 @@
 
 
 
-# 2. continue Statement
+
+
+
+'''2. continue Statement'''
 
 
 # for i in range(10):
@@ -302,7 +377,9 @@
 
 
 
-# 3. pass Statement
+
+
+''' 3. pass Statement'''
 
 
 
@@ -313,7 +390,10 @@
 
 
 
-# Example 4: Using break, continue, and pass Together
+
+
+
+'''Example 4: Using break, continue, and pass Together'''
 
 
 
@@ -329,14 +409,17 @@
 
 
 
-# Nested Loop
 
+
+'''Nested Loop'''
 
 
 # for i in range(5): 
 #     for j in range(5):  
 #         print("*", end=" ")
 #     print()  
+
+
 
 
 
@@ -349,10 +432,14 @@
 
 
 
+
+
 # for i in range(1, 6): 
 #     for j in range(1, 6):  
 #         print(i * j, end="\t") 
 #     print()
+
+
 
 
 
@@ -365,6 +452,8 @@
 #         j += 1
 #     print()
 #     i += 1
+
+
 
 
 
