@@ -60,7 +60,8 @@
 
 
 
-# list of dicts
+''' list of dicts'''
+
 
 # students=[
 #     {"name" : "Sumit" , "age" : 23},
@@ -73,7 +74,11 @@
 # print(students[3]["name"])
 # print(students[3]["age"])
 
-        # and 
+
+
+'''and'''
+
+
 
 # for st in students:
 #     print(st["name"],"---",st["age"])
