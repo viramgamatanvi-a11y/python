@@ -1,14 +1,17 @@
-# Function and it's Types
+'''Function and it's Types'''
 
 
-# Types of Functions in Python
-
-# Built-in Functions : (Predefined functions like print(), len(), max(), etc.)
-# User-defined Functions : (Custom functions created by the programmer)
+'''Types of Functions in Python'''
 
 
+'''
+ Built-in Functions : (Predefined functions like print(), len(), max(), etc.)
+ User-defined Functions : (Custom functions created by the programmer)
+'''
 
-# 1. Built-in Functions
+
+
+'''1. Built-in Functions'''
 
 
 # print(len("Hello")) 
@@ -17,7 +20,9 @@
 
 
 
-# 2. User-defined Functions
+
+
+'''2. User-defined Functions'''
 
 
 # def greet(name):
@@ -29,13 +34,14 @@
 
 
 
-# User Defined Function (UDF)
+
+'''User Defined Function (UDF)'''
 
 
-# Types of User-Defined Functions
+'''Types of User-Defined Functions'''
 
 
-# 1. Function Without Parameters & Without Return (Take nothing return nothing) (tnrn)
+'''1. Function Without Parameters & Without Return (Take nothing return nothing) (tnrn)'''
 
 
 # def greet():
@@ -47,7 +53,9 @@
 
 
 
-# 2. Function With Parameters & Without Return (Take something return nothing) (tsrn)
+
+
+'''2. Function With Parameters & Without Return (Take something return nothing) (tsrn)'''
 
 
 # def add(a, b):
@@ -59,7 +67,9 @@
 
 
 
-# 3. Function With Parameters & With Return (Take something return nothing) (tsrs)
+
+
+'''3. Function With Parameters & With Return (Take something return nothing) (tsrs)'''
 
 
 # def multiply(a, b):
@@ -72,7 +82,9 @@
 
 
 
-# 4. Function Without Parameters & With Return (Take nothing return something) (tnrs)
+
+
+'''4. Function Without Parameters & With Return (Take nothing return something) (tnrs)'''
 
 
 # def get_pi():
@@ -85,18 +97,24 @@
 
 
 
-# Types of Function Arguments
 
 
-# 1.Positional Arguments
-# 2.Default Arguments
-# 3.Keyword Arguments
-# 4.Variable-Length Arguments (*args, **kwargs)
+'''Types of Function Arguments'''
+
+
+'''
+1.Positional Arguments
+2.Default Arguments
+3.Keyword Arguments
+4.Variable-Length Arguments (*args, **kwargs)
+'''
 
 
 
 
-# 1. Positional Arguments
+
+
+'''1. Positional Arguments'''
 
 
 # def greet(name, age):
@@ -108,7 +126,9 @@
 
 
 
-# 2. Default Arguments
+
+
+'''2. Default Arguments'''
 
 
 # def greet(name, age=18):
@@ -122,7 +142,10 @@
 
 
 
-# 3. Keyword Arguments
+
+
+
+'''3. Keyword Arguments'''
 
 
 # def student(name, subject):
@@ -136,10 +159,12 @@
 
 
 
-# 4. Variable-Length Arguments
 
 
-# A. *args (Non-Keyword Arguments - Tuple Format)
+'''4. Variable-Length Arguments'''
+
+
+'''A. *args (Non-Keyword Arguments - Tuple Format)'''
 
 
 # def add_numbers(*args):
@@ -151,7 +176,9 @@
 
 
 
-# B. **kwargs (Keyword Arguments - Dictionary Format)
+
+
+'''B. **kwargs (Keyword Arguments - Dictionary Format)'''
 
 
 # def show_info(**kwargs):
@@ -164,7 +191,9 @@
 
 
 
-# C. Using *args and **kwargs Together
+
+
+'''C. Using *args and **kwargs Together'''
 
 
 # def display_data(*args, **kwargs):
@@ -177,13 +206,15 @@
 
 
 
-# Document String
 
 
-# Types of Docstrings
+'''Document String'''
 
 
-# 1. Function Docstring
+'''Types of Docstrings'''
+
+
+'''1. Function Docstring'''
 
 
 # def add(a, b):
@@ -196,7 +227,9 @@
 
 
 
-# 2. Class Docstring
+
+
+'''2. Class Docstring'''
 
 
 # class Student:
@@ -214,7 +247,9 @@
 
 
 
-# 3. Module-Level Docstring
+
+
+'''3. Module-Level Docstring'''
 
 
 # """
@@ -229,7 +264,9 @@
 
 
 
-# 4. Multi-Line Docstring
+
+
+'''4. Multi-Line Docstring'''
 
 
 # def greet(name):
@@ -250,7 +287,10 @@
 
 
 
-# Recursion
+
+
+
+'''Recursion'''
 
 
 
@@ -260,6 +300,8 @@
 #     return n * factorial(n - 1)  
 
 # print(factorial(5))
+
+
 
 
 
@@ -277,6 +319,8 @@
 
 
 
+
+
 # def sum_natural(n):
 #     if n == 1: 
 #         return 1
@@ -288,13 +332,16 @@
 
 
 
-# Anonymous/Lambda Function
 
+
+''' Anonymous/Lambda Function'''
 
 
 # add = lambda a, b: a + b
 
 # print(add(5, 3))
+
+
 
 
 
@@ -310,11 +357,15 @@
 
 
 
+
+
 # numbers = [1, 2, 3, 4, 5, 6]
 
 # evens = list(filter(lambda x: x % 2 == 0, numbers))
 
 # print(evens)  
+
+
 
 
 
@@ -330,7 +381,10 @@
 
 
 
-# from functools import reduce
+
+
+'''from functools import reduce'''
+
 
 # numbers = [1, 2, 3, 4, 5]
 
@@ -343,8 +397,8 @@
 
 
 
-# global keyword
 
+'''global keyword'''
 
 
 # x = 10  
@@ -355,6 +409,7 @@
 
 # my_function()
 # print("Outside function:", x)
+
 
 
 
@@ -375,6 +430,8 @@
 
 
 
+
+
 # a = 100
 # b = 200
 
@@ -385,6 +442,9 @@
 
 # update_values()
 # print(a, b)
+
+
+
 
 
 
@@ -408,10 +468,12 @@
 
 
 
-# Returning multiple values from a Function
 
 
-# Using Tuples (Default Way)
+'''Returning multiple values from a Function'''
+
+
+'''Using Tuples (Default Way)'''
 
 
 # def get_values():
@@ -423,7 +485,9 @@
 
 
 
-# Using Lists
+
+
+'''Using Lists'''
 
 
 # def get_list():
@@ -436,7 +500,8 @@
 
 
 
-# Using Dictionaries
+
+'''Using Dictionaries'''
 
 
 # def get_student():
@@ -449,7 +514,9 @@
 
 
 
-# Using Multiple Return Variables
+
+
+'''Using Multiple Return Variables'''
 
 
 # def get_numbers():
@@ -463,8 +530,8 @@
 
 
 
-# Nested Function
 
+'''Nested Function'''
 
 
 # def greet(name):
@@ -479,12 +546,15 @@
 
 
 
+
+
 # def multiplier(factor):
 #     def multiply(number):
 #         return number * factor 
 #     return multiply  
 # double = multiplier(2) 
 # print(double(5))
+
 
 
 

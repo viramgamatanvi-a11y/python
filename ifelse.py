@@ -1,7 +1,8 @@
-# Types of Control Structure
+'''Types of Control Structure'''
 
 
-# 1. Sequential Control Structure
+'''1. Sequential Control Structure'''
+
 
 
 # print("Hello!")  
@@ -11,31 +12,41 @@
 
 
 
-# 2. Selection Control Structure (Decision-Making)
-# (a) if Statement
-# (b) if-else Statement
-# (c) Ladder Statement
-# (d) Nested Statement
-# (e) Short-hand Syntax or Ternary Statement
+
+
+'''
+2. Selection Control Structure (Decision-Making)
+(a) if Statement
+(b) if-else Statement
+(c) Ladder Statement
+(d) Nested Statement
+(e) Short-hand Syntax or Ternary Statement
+'''
 
 
 
 
-# 3. Looping Control Structure (Iteration)
-# (a) for Loop (Iterates Over a Sequence)
-# (b) while Loop (Runs Until Condition Becomes False)
-# (c) Loop Control Statements
+
+
+'''3. Looping Control Structure (Iteration)
+(a) for Loop (Iterates Over a Sequence)
+(b) while Loop (Runs Until Condition Becomes False)
+(c) Loop Control Statements
+'''
 
 
 
 
-# Working of if statement
+
+'''Working of if statement'''
 
 
 # num = 10
 # if num > 0: 
 #     print("The number is positive.")  
 # print("This statement always runs.")
+
+
 
 
 
@@ -48,6 +59,8 @@
 
 
 
+
+
 # num = 8
 # if num > 0 and num % 2 == 0: 
 #     print(f"{num} is a positive even number.")
@@ -55,7 +68,9 @@
 
 
 
-# Working of if else statement
+
+
+'''Working of if else statement'''
 
 
 # num = int(input("Enter a number: ")) 
@@ -63,6 +78,8 @@
 #     print(f"{num} is an even number.")  
 # else:
 #     print(f"{num} is an odd number.")
+
+
 
 
 
@@ -76,11 +93,15 @@
 
 
 
+
+
 # num = -5
 # if num >= 0:
 #     print("Positive Number")
 # else:
 #     print("Negative Number")
+
+
 
 
 
@@ -94,10 +115,14 @@
 
 
 
+
+
 # if 10>5:
 #     print("Yes this is True")
 # else:
 #     print("Yes this is false")
+
+
 
 
 
@@ -114,7 +139,9 @@
 
 
 
-# Working of if elif ... else (ladder) statement
+
+
+'''Working of if elif ... else (ladder) statement'''
 
 
 # marks = int(input("Enter your marks: ")) 
@@ -128,6 +155,8 @@
 #     print("Grade: D")
 # else:
 #     print("Grade: F")
+
+
 
 
 
@@ -155,6 +184,8 @@
 
 
 
+
+
 # temp = 32
 
 # if temp < 0:
@@ -167,6 +198,9 @@
 #     print("It's warm!")
 # else:
     # print("It's hot!")
+    
+    
+    
     
     
     
@@ -187,7 +221,9 @@
 
 
 
-# Working of nested if statements
+
+
+'''Working of nested if statements'''
 
 
 # num = 15
@@ -199,6 +235,8 @@
 #         print(f"{num} is greater than 20")
 # else:
 #     print(f"{num} is less than 10")
+
+
 
 
 
@@ -217,6 +255,8 @@
 
 
 
+
+
 # num = 12
 
 # if num >= 0:
@@ -226,6 +266,8 @@
 #         print(f"{num} is an odd number.")
 # else:
 #     print("The number is negative.")
+
+
 
 
 
@@ -244,6 +286,9 @@
 #         print("You failed english.")
 # else:
 #     print("You failed maths.")
+
+
+
 
 
 
@@ -267,6 +312,9 @@
 
 
 
+
+
+
 # a=int(input("Enter a number : "))
 
 # if a>10:
@@ -281,12 +329,17 @@
 
 
 
-# Working of Short-hand syntax (Ternary Statement)
+
+
+
+'''Working of Short-hand syntax (Ternary Statement)'''
 
 
 # num = 10
 # result = "Even" if num % 2 == 0 else "Odd"
 # print(result)
+
+
 
 
 
@@ -299,6 +352,8 @@
 
 
 
+
+
 # age = 18
 # status = "Eligible to vote" if age >= 18 else "Not eligible to vote"
 # print(status)
@@ -306,9 +361,13 @@
 
 
 
+
+
 # marks = 85
 # grade = "A" if marks >= 90 else "B" if marks >= 70 else "C"
 # print("Grade:", grade)
+
+
 
 
 
@@ -321,7 +380,10 @@
 
 
 
-# match case in python
+
+
+'''match case in python'''
+
 
 # day=2
 
