@@ -55,3 +55,71 @@
 # order={"Cheese":2,"Olives":1}
 # order.pop("Olives")
 # print(order)
+
+
+
+
+
+
+'''Default + Return'''
+
+# def bonus(salary, rate=10):
+#     return salary + (salary * rate / 100)
+
+# print(bonus(1000))
+
+
+
+
+
+
+'''Lambda Function'''
+
+# square=lambda x: x**2
+# print(square(5))
+
+
+
+
+
+
+'''Keyword Arguments'''
+
+# def rate(movie, stars):
+#     print(movie ,stars)
+    
+# rate(stars=5,
+#      movie="Inception")
+
+
+
+
+
+
+'''Positional Args'''
+
+# def discount(price, off):
+#     return price - off
+
+# print(discount(1000,200))
+
+
+
+
+
+
+
+
+'''Default Argument'''
+
+# def greet(name="Customer"):
+#     print("Hello",name)
+    
+# greet()
+
+
+
+
+
+
+
