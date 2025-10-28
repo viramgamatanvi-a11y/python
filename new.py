@@ -122,4 +122,29 @@
 
 
 
+# x=True + True + False
+# print(x)
+
+
+
+
+
+
+'''While Loop'''
+
+# x=5
+# while x:
+#     print(x, end=" ")
+#     x -= 1
+
+
+
+
+'''list Multiplication'''
+
+# nums=[1,2,3]
+# print(nums*2)
+
+
+
 
