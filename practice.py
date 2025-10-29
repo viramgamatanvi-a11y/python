@@ -475,3 +475,126 @@ my_dict={
 
 
 
+
+# for i in range(0,6):
+#     print(i)
+
+
+# i=1
+# while i<=5:
+#     print(i)
+#     i+=1
+
+
+
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(f"{i} * {j} ={i*j}")
+
+
+
+
+# for i in range(7):
+#     print(i)
+
+
+
+# for ite in range(1,4):
+#     print(ite)
+
+
+
+# i=1
+# while i<=5:
+#     print(i)
+#     i+=1
+    
+    
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(f"{i} * {j} = {i * j}")
+
+
+
+# i=1
+# while i<=7:
+#     print(i)
+#     i+=1
+
+
+
+# for i in range(5):
+#     print(i)
+
+
+
+# for i in range(2,6):
+#     print(i)
+
+
+
+# for i in range(1,11,2):
+#     print(i)
+
+
+
+# for i in range(10,0,-1):
+#     print(i)
+
+
+# numbers=list(range(1,6))
+# print(numbers)
+
+
+
+# numbers=list(range(2,5))
+# print(numbers)
+
+
+# numbers=tuple(range(1,4))
+# print(numbers)
+
+
+
+# numbers=set(range(2,5))
+# print(numbers)
+
+
+
+
+# for i in range(10,0,-2):
+#     print(i)
+
+
+
+# for i in range(10,0,-3):
+#     print(i)
+
+
+
+# numbers=[1,2,3,4,5]
+# for num in numbers:
+#     print(num)
+
+
+
+# word="Python"
+# for char in word:
+#     print(char)
+
+
+
+# for i in range(1,6):
+#     print(i)
+
+
+
+
+
+# students_scores={"Name":"Tanvi","Age":18,"City":"Rajkot"}
+# for student,scores in students_scores.items():
+#     print(f"{student} : {scores}")
+
+
+
+
