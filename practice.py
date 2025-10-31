@@ -597,4 +597,79 @@ my_dict={
 
 
 
+# print("Hello", "World", sep="-")
+
+
+
+# print("Hello", end="&")
+# print("world")
+
+
+# name=input("Enter your name : ")
+# age=int(input("Enter your age : "))
+# hobby=input("Enter your hobby : ")
+
+# print(f"Hello,{name}! at {age}, enjoying {hobby} sounds fun!")
+
+
+
+# num1=int(input("Enter your number : "))
+# num2=int(input("Enter your number : "))
+
+# print(f"Addition: {num1 + num2}")
+# print(f"Subtraction: {num1 - num2}")
+# print(f"Multiplication: {num1 * num2}")
+# print(f"Division: {num1 / num2}")
+# print(f"Floor Division: {num1 // num2}")
+# print(f"Modulus: {num1 % num2}")
+# print(f"Exponentiation: {num1 ** num2}")
+
+
+
+
+# sum = 0
+# num = 1
+
+# while num <= 10:
+#     sum += num  
+#     num += 1  
+
+# print("The sum of numbers from 1 to 10 is:", sum)
+
+# sum=0
+# num=1
+
+# while num<=20:
+#     sum+=num
+#     num+=1
+    
+# print("The sum of 1 to 20 number is : ",sum)
+    
+    
+    
+    
+# correct_number = 7
+# guess = None
+
+# while guess != correct_number:
+#     guess = int(input("Guess the number (between 1 and 10): "))
+#     if guess < correct_number:
+#         print("Too low!")
+#     elif guess > correct_number:
+#         print("Too high!")
+#     else:
+#         print("Congratulations! You've guessed the correct number!")
+
+
+
+
+# def greet():
+#     print("Hello, World!")
+
+# greet()
+
+
+
+
+
 
