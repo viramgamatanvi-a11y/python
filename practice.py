@@ -671,10 +671,16 @@ my_dict={
 
 
 
-# def greet(name):
-#     print("Hello, "+ name)
-    
-# greet("Tanvi")
+# def greet():
+#     print("Hello Tanvi")
 
+# greet()
+
+
+
+# def add(a,b):
+#     print("Sum : ",a+b)
+
+# add(2,4)
 
 
