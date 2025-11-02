@@ -671,5 +671,10 @@ my_dict={
 
 
 
+# def greet(name):
+#     print("Hello, "+ name)
+    
+# greet("Tanvi")
+
 
 
