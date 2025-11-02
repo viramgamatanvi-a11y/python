@@ -684,3 +684,56 @@ my_dict={
 # add(2,4)
 
 
+# def greet(name):
+#     print("Hello ",name)
+
+# greet("Tanvi")
+
+
+# def greet():
+#     print("Hello Tanvi")
+
+# greet()
+
+
+
+# def add(a,b):
+#     print("Sum : ",a+b)
+    
+# add(2,3)
+
+
+
+# def multiply(a,b):
+#     return a*b
+
+# result=multiply(3,4)
+# print("Product : ",result)
+
+
+
+# def multiply(a,b):
+#     return a*b
+
+# result=multiply(2,6)
+# print("Product : ",result)
+
+
+
+
+# def get_pi():
+#     return 3.14
+
+# pi_value=get_pi()
+# print("Pi : ",pi_value)
+
+
+# def get_pi():
+#     return 3.14
+
+# pi_value=get_pi()
+# print("Pi : ",pi_value)
+
+
+
+
