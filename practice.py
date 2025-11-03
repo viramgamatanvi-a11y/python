@@ -737,3 +737,107 @@ my_dict={
 
 
 
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+
+
+
+
+
+# def fibonacci(n):
+#     if n <= 0:  
+#         return 0
+#     elif n == 1:
+#         return 1
+#     return fibonacci(n - 1) + fibonacci(n - 2)  
+
+# print(fibonacci(8))
+
+
+
+# def sum_natural(n):
+#     if n == 1:  
+#         return 1
+#     return n + sum_natural(n - 1)  
+
+# print(sum_natural(5))  
+
+
+
+
+# add = lambda a, b: a + b
+
+# print(add(5, 3))
+
+
+# add=lambda a,b: a+b
+# print(add(5,6))
+
+
+# numbers = [1, 2, 3, 4, 5]
+
+# doubled = list(map(lambda x: x * 2, numbers))
+
+# print(doubled)
+
+
+
+
+
+# numbers=[6,7,8,9,10]
+
+# doubled=list(map(lambda x: x*2,numbers))
+
+# print(doubled)
+
+
+
+
+# numbers = [1, 2, 3, 4, 5, 6]
+
+# evens = list(filter(lambda x: x % 2 == 0, numbers))
+
+# print(evens)
+
+
+
+# numbers=[6,7,8,9,10]
+
+# evens=list(filter(lambda x: x%2==0,numbers))
+
+# print(evens)
+
+
+
+
+# students = [("Alice", 25), ("Bob", 22), ("Charlie", 23)]
+
+# sorted_students = sorted(students, key=lambda x: x[1])
+
+# print(sorted_students)
+
+
+
+# students=[("Alice",78), ("Tanvi",18), ("Janvi",32)]
+
+# sorted_students=sorted(students, key=lambda x: x[1])
+
+# print(sorted_students)
+
+
+
+
+# from functools import reduce
+
+# numbers = [1, 2, 3, 4, 5]
+
+# product = reduce(lambda x, y: x * y, numbers)
+
+# print(product)  
+
+
+
+
