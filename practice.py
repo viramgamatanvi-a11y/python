@@ -919,4 +919,95 @@ my_dict={
 
 
 
+# class Person:
+#     def greet(self):
+#         print("Hello")
+
+# object=Person()
+
+# object.greet()
+    
+    
+    
+# class Person:
+#     def greet(self):
+#         print("Hii Tanvi")
         
+# object=Person()
+# object1=Person()
+
+# object.greet()
+# object1.greet()
+
+
+
+
+# class Car:
+#     def greet(self):
+#         print("Hyryder")
+        
+# object=Car()
+
+# object.greet()
+
+
+
+# class Car:
+#     def greet(self):
+#         print("Curvv")
+        
+# object=Car()
+
+# object.greet()
+
+
+
+
+# class Car:
+#     brand=None
+#     model=None
+#     year=None
+    
+# car1=Car()
+
+# print(car1.brand,car1.model,car1.year)
+
+
+
+
+# class Car:
+#     brand="Toyota"
+#     model="Hyryder"
+#     year=2022
+    
+# car1=Car()
+
+# print(car1.brand,car1.model,car1.year)
+
+
+
+
+
+# class Car:
+#     brand=None
+#     model=None
+#     year=None
+    
+# car1=Car()
+
+# car1.brand="Toyota"
+# car1.model="Hyryder"
+# car1.year=2023
+
+
+# car2=Car()
+
+# car2.brand="Tata"
+# car2.model="curvv"
+# car2.year=2023
+
+
+# print(car1.brand,car1.model,car1.year)
+# print(car2.brand,car2.model,car2.year)
+
+    
