@@ -1010,4 +1010,73 @@ my_dict={
 # print(car1.brand,car1.model,car1.year)
 # print(car2.brand,car2.model,car2.year)
 
+
+
+# class Car:
+#     def __init__(self,brand,model):
+#         self.brand=brand
+#         self.model=model
+        
+#     def set_brand(self,brand):
+#         self.brand=brand
+        
+#     def get_brand(self):
+#         print(f"The Car brande is {self.brand} and model is {self.model}")
+        
+# car1=Car("Toyota","Hyryder")
+
+# print(car1.get_brand())
+
+
+
+
+# class Car:
+#     name=None
+#     brand=None
     
+#     def setdata(self,name,brand):
+#         self.name=name
+#         self.brand=brand
+        
+#     def getdata(self):
+#         print(f"The name is {self.name} and brand is {self.brand}")
+        
+# obj=Car()
+
+# obj.setdata("XUV","mahindra")
+
+# obj.getdata()
+
+
+        
+        
+# class Animal:
+#     def sound(self):
+#         print("Makes a sound")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("Barks")
+        
+        
+# dog=Dog()
+# print(dog.sound())
+# print(dog.bark())
+
+
+
+
+# class Animal:
+#     def sound(self):
+#         return "Makes a sound"
+    
+# class Dog(Animal):
+#     def bark(self):
+#         return "Barks"
+    
+# dog=Dog()
+# print(dog.sound())
+# print(dog.bark())
+
+
+
