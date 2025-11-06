@@ -93,3 +93,94 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Car:
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+        
+    def set_brand(self,brand,model):
+        self.brand=brand
+        self.model=model
+        
+    def get_brand(self):
+        return self.brand,self.model
+    
+car1=Car("Toyota","Hyryder")
+
+print(car1.get_brand())
+
+car1.set_brand("Honda","i20")
+
+print(car1.get_brand())
