@@ -657,9 +657,11 @@ class Developer(Employee):
         
     def get_brand(self):
         print(f"Employee created with id : {self.id} , name : {self.name} , age : {self.age} , salary : {self.salary} , programming_language : {self.programming_language}")
+  
         
-        
-        
+print(issubclass(Manager, Employee))     
+print(issubclass(Developer, Employee))
+      
 Managerlist=[]
 Developerlist=[]
 

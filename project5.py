@@ -21,8 +21,9 @@ class Manager(Employee):
         
     def get_brand(self):
         print(f"Employee created with id : {self.id} , name : {self.name} , age : {self.age} , salary : {self.salary} , HR : {self.HR} , Finance : {self.Finance}")
-        
-
+    
+        print(issubclass(Manager, Employee))
+                                                                               
 class Developer(Employee):
     def __init__(self, id, name, age, salary,programming_language):
         super().__init__(id, name, age, salary)
@@ -31,7 +32,9 @@ class Developer(Employee):
     def get_brand(self):
         print(f"Employee created with id : {self.id} , name : {self.name} , age : {self.age} , salary : {self.salary} , programming_language : {self.programming_language}")
         
-        
+        print(issubclass(Developer, Employee))
+
+      
         
 Managerlist=[]
 Developerlist=[]
@@ -39,12 +42,12 @@ Developerlist=[]
 
 while True:
     
-    print("\n --- Python OOP project: Employee Management System ---")
+    print("\n --- Python OOP project: Employee Management System --- \n")
     
     print("Enter 1 for Manager")
     print("Enter 2 for Developer")
     print("Enter 3 for show details")
-    print("Enter 0 for exit")
+    print("Enter 0 for exit\n")
     
     choice=int(input("Enter your choice : "))
     
@@ -91,6 +94,10 @@ while True:
     elif choice==0:
         print("Exiting!")
         break
-    
+   
     else:
         print("Your choice is wrong!")
+        
+        
+        
+        
