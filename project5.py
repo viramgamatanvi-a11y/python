@@ -22,7 +22,8 @@ class Manager(Employee):
     def get_brand(self):
         print(f"Employee created with id : {self.id} , name : {self.name} , age : {self.age} , salary : {self.salary} , HR : {self.HR} , Finance : {self.Finance}")
     
-        print(issubclass(Manager, Employee))
+    def parent(self):
+        issubclass(Manager, Employee)
                                                                                
 class Developer(Employee):
     def __init__(self, id, name, age, salary,programming_language):
@@ -31,10 +32,10 @@ class Developer(Employee):
         
     def get_brand(self):
         print(f"Employee created with id : {self.id} , name : {self.name} , age : {self.age} , salary : {self.salary} , programming_language : {self.programming_language}")
-        
-        print(issubclass(Developer, Employee))
+       
+    def parent(self): 
+        issubclass(Developer, Employee)
 
-      
         
 Managerlist=[]
 Developerlist=[]
