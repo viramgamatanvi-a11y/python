@@ -98,7 +98,3 @@ while True:
    
     else:
         print("Your choice is wrong!")
-        
-        
-        
-        
