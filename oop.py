@@ -995,8 +995,3 @@
 
 # s.withdraw(500) 
 # c.withdraw(1000)
-
-
-
-
-
