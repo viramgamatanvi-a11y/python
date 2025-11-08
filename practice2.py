@@ -722,3 +722,20 @@
     
 #     else:
 #         print("Your choice is wrong!")
+
+
+
+
+# class Example:
+#         value=100
+        
+#         def show(self):
+#                 print(self.value)
+                
+# obj1=Example()
+
+# obj1.show()
+
+
+
+
