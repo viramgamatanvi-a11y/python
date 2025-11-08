@@ -609,22 +609,6 @@
         
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class Employee:
 #     def __init__(self,id,name,age,salary):
 #         self.id=id
@@ -739,3 +723,106 @@
 
 
 
+# class Car:
+#         brand=None
+#         model=None
+#         year=None
+        
+# car1=Car()
+
+# print(car1.brand,car1.model,car1.year)
+
+
+
+
+
+# class Car:
+#         brand="Toyota"
+#         model="Hyryder"
+#         year=2023
+        
+# car1=Car()
+# car2=Car()
+
+# print(car1.brand,car1.model,car1.year)
+# print(car2.brand,car2.model,car2.year)
+
+
+
+
+
+# class Car:
+#         brand=None
+#         model=None
+#         year=None
+        
+# car1=Car()
+
+# car1.brand="Toyota"
+# car1.model="Hyryder"
+# car1.year=2023
+
+# car2=Car()
+
+# car2.brand="Tata"
+# car2.model="curvv"
+# car2.year=2024
+
+# car3=Car()
+
+# car3.brand="mahindre"
+# car3.model="XUV"
+# car3.year=2021
+
+# car4=Car()
+
+# car4.brand="bmw"
+# car4.model="Q3"
+# car4.year=2020
+
+
+# print(car1.brand,car1.model,car1.year)
+# print(car2.brand,car2.model,car2.year)
+# print(car3.brand,car3.model,car3.year)
+# print(car4.brand,car4.model,car4.year)
+
+
+
+
+# class Car:
+#         def __init__(self):
+#                 print("car objeact is created")
+                
+# car1=Car()
+
+
+
+
+# class Car:
+#         def __init__(self,brand,model,year):
+#                 self.brand=brand
+#                 self.model=model
+#                 self.year=year
+                
+#         def show_details(self):
+#                 print(f"Brand : {self.brand} , Model : {self.model} , Year : {self.year}")
+                
+# car1=Car("Toyota","Hyryder",2023)
+# car1.show_details()
+                
+                
+                
+                
+# class Car:
+#         def __init__(self,brand="Toyota",model="Hyryder"):
+#                 self.brand=brand
+#                 self.model=model
+        
+#         def show_details(self):
+#                 print(f"Brand : {self.brand} , Model : {self.model}")
+                
+# car1=Car()
+# car1.show_details()
+
+# car2=Car("Tata","curvv")
+# car2.show_details()

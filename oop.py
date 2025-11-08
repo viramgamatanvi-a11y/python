@@ -14,6 +14,18 @@
 '''4.Abstraction'''
 
 
+# class Person:
+#     def greet(self):
+#         print("Hello")
+        
+# obj1=Person()
+# obj2=Person()
+
+
+# obj1.greet()
+# obj2.greet()
+
+
 
 
 '''Class and Object'''
