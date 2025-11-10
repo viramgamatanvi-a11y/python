@@ -826,3 +826,50 @@
 
 # car2=Car("Tata","curvv")
 # car2.show_details()
+
+
+
+
+
+
+# file=open("demo.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+
+
+# file=open("demo.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+
+
+
+# file=open("demo.txt","w")
+# file.write("Hello World!")
+# file.close()
+
+
+
+# file=open("demo.txt","w")
+# file.write("Hello Tanvi!")
+# file.close()
+
+
+
+# file=open("demo.txt","a")
+# file.write("Hii viramgama")
+
+# file.close()
+
+
+
+
+# file=open("demo.txt","w")
+# file.write("Hello Tanvi")
+# file.close()
+
+
+
