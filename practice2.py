@@ -873,3 +873,87 @@
 
 
 
+# file=open("demo.txt","r")
+# firstline=file.readline()
+# firstlines=file.readlines()
+# for line in firstline:
+#         print(line)
+        
+# file.close()
+
+
+
+
+
+
+
+
+
+# main=[]
+
+# print("Welcome to our planner !\n")
+
+# while True:
+#     print("1.creat file")
+#     print("2.write file")
+#     print("3.append file")
+#     print("4.read file")
+#     print("0.Exit \n ")
+
+#     choice=int(input("Enter your choice : "))
+
+#     if choice==1:
+#         print()
+#         cre=input("your file name: ")
+#         file=open(cre,"w")
+#         file.write("")
+#         file.close()
+
+#         main.append(cre)
+#         print()
+#         print("your file is created ! \n")
+
+#     elif choice==2:
+#         print()
+#         con=input("your content print in this file : ")
+#         file=open(cre,"w")
+#         file.write(con)
+#         file.close()
+
+#         main.append(con)
+#         print()
+#         print("your content is successfully printed in this file ! \n")
+
+#     elif choice==3:
+#         print()
+#         app=input("your updeted content printed in this file : ")
+#         file=open(cre,"a")
+#         file.write(app)
+#         file.close()
+
+#         main.append(app)
+
+#         print("your content updeted successfully !\n")
+
+#     elif choice==4:
+#         print()
+#         print("your content : \n")
+
+#         for i in main:
+#             print(i)
+#         print()
+
+#     elif choice==0:
+#         print()
+#         print("Exit to our planner !\n")
+#         break
+
+#     else:
+#         print()
+#         print("your choice is not valid !\n")
+#         break
+
+
+
+
+
