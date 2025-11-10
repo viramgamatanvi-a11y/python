@@ -1803,3 +1803,59 @@ my_dict={
     
 #     else:
 #         print("Your choice is wrong!")
+
+
+
+
+
+# main=[]
+
+# print("Welcome to our file handling project!\n")
+
+# while True:
+#     print("1.Create file")
+#     print("2.Write file")
+#     print("3.Append file")
+#     print("4.Read file")
+    
+#     choice=int(input("Enter your choice : "))
+    
+#     if choice==1:
+#         create=input("Enter your create file name : ")
+#         file=open(create,"w")
+#         file.write("")
+#         file.close()
+        
+#         main.append(create)
+#         print("You create a file successfully!")
+        
+#     elif choice==2:
+#         content=input("Enput your content to write in the file : ")
+#         file=open(create,"w")
+#         file.write(content)
+#         file.close()
+        
+#         main.append(create)
+#         print("your content to write in the file is successfully!")
+        
+#     elif choice==3:
+#         append=input("Enput your update content to write in the file : ")
+#         file=open(create,"a")
+#         file.write(append)
+#         file.close()
+        
+#         main.append(content)
+#         print("your update content to write in the file is successfully! : ")
+        
+#     elif choice==4:
+#         print("Your content : ")
+#         for i in main:
+#             print(i)
+            
+#     elif choice==0:
+#         print("Exiting!")
+#         break
+    
+#     else:
+#         print("Your choice is not valid!")
+#         break
