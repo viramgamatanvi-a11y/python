@@ -1909,3 +1909,93 @@ my_dict={
 
 
 
+
+
+
+
+
+
+
+
+
+
+os=[]
+
+class journalmanager:
+    def __init__(self,filename):
+        self.filename=filename
+        
+    def display_menu(self):
+        print("\n===== Personal Journal Manager =====")
+        print("1. Add New Entry")
+        print("2. View All Entries")
+        print("3. Search for an Entry")
+        print("4. Delete All Entries")
+        print("5. Exit")
+
+    def add_entry(self):
+        entry = input("Enter your journal entry: ")
+        try:
+            with open(self.filename, "a") as file:
+                file.write(entry + "\n")
+            print("✅ Entry added successfully!")
+        except Exception as e:
+            print(f"⚠ Error while adding entry: {e}")
+
+    def view_entries(self):
+        try:
+            with open(self.filename, "r") as file:
+                entries = file.readlines()
+                if entries:
+                    print("\n📝 All Journal Entries:")
+                    for i, entry in enumerate(entries, start=1):
+                        print(f"{i}. {entry.strip()}")
+                else:
+                    print("No entries found.")
+        except FileNotFoundError:
+            print("No entries found. Please add a new entry first.")
+
+    def search_entries(self):
+        keyword = input("Enter a keyword or date to search: ")
+        try:
+            with open(self.filename, "r") as file:
+                entries = file.readlines()
+                matching_entries = [entry.strip() for entry in entries if keyword.lower() in entry.lower()]
+                if matching_entries:
+                    print("\n🔍 Matching Entries:")
+                    for entry in matching_entries:
+                        print(entry)
+                else:
+                    print("No matching entries found.")
+        except FileNotFoundError:
+            print("No entries found. Please add a new entry first.")
+
+    def delete_entries(self):
+        confirm = input("Are you sure you want to delete all entries? (yes/no): ")
+        if confirm.lower() == "yes":
+            try:
+                os.remove(self.filename)
+                print("🗑 All journal entries have been deleted.")
+            except FileNotFoundError:
+                print("No entries found to delete.")
+        else:
+            print("Deletion cancelled.")
+
+    def run(self):
+        while True:
+            self.display_menu()
+            choice = input("Enter your choice: ")
+            if choice == "1":
+                self.add_entry()
+            elif choice == "2":
+                self.view_entries()
+            elif choice == "3":
+                self.search_entries()
+            elif choice == "4":
+                self.delete_entries()
+            elif choice == "5":
+                print("👋 Thank you for using Personal Journal Manager. Goodbye!")
+                break
+            else:
+                print("Invalid choice. Please select a valid option.")
+                
