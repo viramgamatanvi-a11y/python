@@ -1859,3 +1859,53 @@ my_dict={
 #     else:
 #         print("Your choice is not valid!")
 #         break
+
+
+
+
+
+# try:
+#     x=10/0
+    
+# except ZeroDivisionError:
+#     print("cannot divide by zero")
+
+
+
+# print("Hello")
+# print("Hello")
+# print("Hello")
+# try:
+#     print(x=5/0)
+# except ZeroDivisionError:
+#     print("Not divisible")
+# print("Hello")
+# print("Hello")
+# print("Hello")
+
+
+
+# print("Hello")
+# try:
+#     print(5/2)
+# except ZeroDivisionError:
+#     print("not divisible")
+# else:
+#     print("Division successfully!")
+# finally:
+#     print("Execution completed")
+# print("Hello")
+
+
+
+# a=10
+
+# if a<18:
+#     raise Exception("The age is not valid!")
+
+# else:
+#     print("All good")
+
+
+
+
