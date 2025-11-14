@@ -2,6 +2,7 @@
 class JournalManager:
     
     def __init__(self):
+        
         self.file="journal.txt"
         
     def add_entry(self):
