@@ -2020,3 +2020,92 @@ my_dict={
 
 # choice==2:
 # 4
+
+
+
+
+
+# class AgeTooYoungError(Exception):  # Custom exception class
+#     def __init__(self, age):
+#         super().__init__(f"Age {age} is too young! Minimum age is 18.")
+
+# # Taking user input
+# age = int(input("Enter your age: "))
+
+# if age < 18:
+#     raise AgeTooYoungError(age)  # Raising custom exception
+# else:
+#     print("Access granted!")
+
+
+# class InsufficientBalanceError(Exception):
+#     def __init__(self, balance, withdraw):
+#         super().__init__(f"Insufficient balance! Available: ₹{balance}, Requested: ₹{withdraw}")
+
+# def withdraw(balance, amount):
+#     if amount > balance:
+#         raise InsufficientBalanceError(balance, amount)
+#     balance -= amount
+#     print(f"Withdrawal successful! Remaining balance: ₹{balance}")
+
+# try:
+#     withdraw(1000, 1500)  # Trying to withdraw more than available
+# except InsufficientBalanceError as e:
+#     print("Error:", e)
+
+
+# import math
+
+# print(math.sqrt(25))   # Square root
+# print(math.factorial(5))  # Factorial
+# print(math.pi)
+
+# def greet(name):
+#     return f"Hello, {name}!"
+
+# pi = 3.14159
+
+
+
+# from math import sqrt, pi
+
+# print(sqrt(16))  # 4.0
+# print(pi)
+
+
+# pip install requests
+# import requests
+
+# response = requests.get("https://www.google.com")
+# print(response.status_code)  # 200 (Success)
+
+
+
+# import datetime
+
+# now = datetime.datetime.now()
+# print("Current Date & Time:", now)
+
+# import datetime
+
+# now = datetime.datetime.now()
+
+# print("Year:", now.year)
+# print("Month:", now.month)
+# print("Day:", now.day)
+# print("Hour:", now.hour)
+# print("Minute:", now.minute)
+# print("Second:", now.second)
+
+
+# import random
+
+# print(random.randrange(1, 10, 2))
+
+
+
+# choice=1
+# 5
+
+# choice=2
+# 4
