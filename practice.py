@@ -1996,7 +1996,27 @@ my_dict={
 
 
 
+# import time
+
+# print("Press ENTER to start the stopwatch")
+# print("Press ENTER again to stop it")
+# input()   # Wait for Enter key (start)
+# start_time = time.time()
+
+# input()   # Wait for Enter key (stop)
+# end_time = time.time()
+
+# elapsed = end_time - start_time
+
+# print(f"Time elapsed: {elapsed:.2f} seconds")
 
 
 
 
+
+
+# choice==1
+# 4,5
+
+# choice==2:
+# 4
