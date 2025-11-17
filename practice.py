@@ -2109,3 +2109,102 @@ my_dict={
 
 # choice=2
 # 4
+
+# file = open("sample.txt", "r")  # Open file in read mode
+# content = file.read()  # Read entire file content
+# print(content)
+# file.close()  # Close the file
+
+
+
+# file=open("sample.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+
+
+
+# file=open("sample.txt","w")
+# file.write("Hello World!")
+# file.close()
+
+
+
+# file=open("sample.txt","a")
+# file.write("Hello Tanvi")
+# file.close()
+
+
+
+# file=open("sample.txt","r")
+# print(file.readline())
+# print(file.readlines())
+# file.close()
+
+
+
+
+# with open("sample.txt","r") as file:
+#     content=file.read()
+#     print(content)
+
+
+
+
+# try:
+#     x=10/0
+    
+# except ZeroDivisionError:
+#     print("cannot divide by zero")
+
+
+
+
+# try:
+#     num=int(input("Enter your number : "))
+#     result=10/num
+# except ZeroDivisionError:
+#     print("cannot divife by zero")
+    
+# else:
+#     print("Division successfully : ",result)
+
+
+
+# try:
+#     num=int(input("Enter your number : "))
+#     result=10/num
+    
+# except ZeroDivisionError:
+#     print("cannot divide by zero")
+    
+# finally:
+#     print("Completed")
+
+
+
+# try:
+#     num=int(input("Enter your number:"))
+#     result=10/num
+    
+# except ZeroDivisionError:
+#     print("cannot divide by zero")
+    
+# else:
+#     print("Division successfully : ",result)
+    
+# finally:
+#     print("Completed~")
+
+
+
+
+# import math
+# print(math.sqrt(25))
+# print(math.factorial(5))
+# print(math.pi)
+
+
+
+

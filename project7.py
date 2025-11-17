@@ -21,7 +21,6 @@ while True:
             print("2. Calculate difference between two dates/times")
             print("3. Format date into custom format")
             print("4. Stopwatch")
-            print("5. Countdown Timer")
             print("0. Back to Main Menu\n")
             
             choice=int(input("Enter your choice : "))
@@ -82,7 +81,6 @@ while True:
             print("1. Calculate Factorial")
             print("2. Solve Compound Interest")
             print("3. Trigonometric calculations")
-            print("4. Area os Geometric Shapes")
             print("0. Back to Main Menu\n")
             
             choice=int(input("Enter your choice : "))
@@ -96,6 +94,8 @@ while True:
                 print("===============================\n")
                 
             elif choice==2:
+                import math
+                
                 p=int(input("Enter Principal Amount : "))
                 r=int(input("Enter Rate of Interest (in %) : "))
                 t=int(input("Enter time (in years) : "))
@@ -137,8 +137,7 @@ while True:
             print("Random Data Generation:")
             print("1. Generate Random Number")
             print("2. Generate Random List")
-            print("3. Create Random Password")
-            print("4. Generate Random OTP")
+            print("3. Generate Random OTP")
             print("0. Back to Main Menu\n")
             
             choice=int(input("Enter your choice : "))
@@ -162,7 +161,7 @@ while True:
                 print("===============================\n")
                 
                 
-            elif choice==4:
+            elif choice==3:
                 import random
 
                 otp = random.randint(100000, 999999)
@@ -176,8 +175,6 @@ while True:
                 
             else:
                 print("Your choice is not valid!")
-                
-                
     
     elif choice==4:
             print("Generate Unique Indentifiers (UUID):")
