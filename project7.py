@@ -72,8 +72,7 @@ while True:
                 break
                 
             else:
-                print("Your choice is not valid!")
-                
+                print("Your choice is not valid!")              
                 
     elif choice==2:
         while True:
