@@ -2,7 +2,7 @@ import numpy as np
 
 class DataAnalytics:
     arr=None
-    
+
     def create_array(self):
         print("Select the type of array to create: ")
         print("1. 1D Array")
@@ -16,7 +16,8 @@ class DataAnalytics:
             self.array = np.array(ele)
             DataAnalytics.arr = self.array
 
-            print("1D Numpy Array:", self.array)
+            print("1D Numpy Array:\n", self.array)
+            print()
                                         
         elif choice==2:
             rows = int(input("Enter the number of rows: "))
@@ -32,12 +33,13 @@ class DataAnalytics:
 
             print("\nArray Created Successfully ✔️")
             print("Your 2D Array is:\n", self.array)
+            print()
                
         elif choice==3:
 
-            x = int(input("Enter dimension 1 (x): "))
-            y = int(input("Enter dimension 2 (y): "))
-            z = int(input("Enter dimension 3 (z): "))
+            x = int(input("Enter number of layers: "))
+            y = int(input("Enter number of rows: "))
+            z = int(input("Enter number of columns: "))
 
             total = x * y * z
             print(f"Enter {total} elements for the 3D array separated by space:")
@@ -49,6 +51,7 @@ class DataAnalytics:
 
             print("\nArray Created Successfully ")
             print("Your 3D Array is:\n", self.array)
+            print()
                 
         else:
             print("Invalid choice!")
@@ -79,7 +82,7 @@ class DataAnalytics:
             result = DataAnalytics.arr + arr2
             print("\nResult of Addition:")
             print(result)
-            
+            print()
 
         elif choice == 2:
             print("\nOriginal Array:")
@@ -97,9 +100,9 @@ class DataAnalytics:
             result = DataAnalytics.arr - arr2
             print("\nResult of Addition:")
             print(result)
-            
+            print()
 
-        if choice == 3:
+        elif choice == 3:
             print("\nOriginal Array:")
             print(DataAnalytics.arr)
 
@@ -115,9 +118,9 @@ class DataAnalytics:
             result = DataAnalytics.arr * arr2
             print("\nResult of Addition:")
             print(result)    
-            
+            print() 
 
-        if choice == 4:
+        elif choice == 4:
             print("\nOriginal Array:")
             print(DataAnalytics.arr)
 
@@ -133,6 +136,11 @@ class DataAnalytics:
             result = DataAnalytics.arr / arr2
             print("\nResult of Addition:")
             print(result) 
+            print()
+            
+        else:
+            print("Invalid choice!")
+            return
             
     def combin(self):
         print("Choose an option: ")
@@ -140,7 +148,6 @@ class DataAnalytics:
         print("2. Split Array")
 
         choice = int(input("Enter your choice : "))
-
 
         if choice==1:
             print("\nOriginal Array:")
@@ -157,6 +164,7 @@ class DataAnalytics:
                  
             combined = np.concatenate((DataAnalytics.arr, arr2))
             print("Concatenated Array:", combined)
+            print()
 
         elif choice==2:
             print("\nOriginal Array:")
@@ -174,7 +182,12 @@ class DataAnalytics:
             print(arr2)
                                
             result = np.split(DataAnalytics.arr, parts)
-            print("\nSplit Arrays:",result)              
+            print("\nSplit Arrays:",result) 
+            print()
+            
+        else:
+            print("Invalid choice!")
+            return             
               
     def search(self):
         print("Choose an option : ")
@@ -190,24 +203,24 @@ class DataAnalytics:
             val = int(input("Enter value to search: "))
             result = np.where(DataAnalytics.arr == val)
             print(f"Index of {val}:", result)
+            print()
             
         elif choice == 2:
             sorted_arr = np.sort(DataAnalytics.arr)
             print("Sorted Array:", sorted_arr)
+            print()
                                 
         elif choice == 3:
             x = int(input("Enter value to filter greater than: "))
             filtered_arr = DataAnalytics.arr[DataAnalytics.arr > x]
             print("Filtered Array:", filtered_arr)
+            print()
             
         else:
             print("Invalid choice!")
-            
-            
-     
-            
+            return
+    
     def aggre(self):
-
         print("Choose an aggregate/statistical operation: ")
         print("1. Sum")
         print("2. Mean")
@@ -221,22 +234,27 @@ class DataAnalytics:
         
         if choice==1:
             print("Sum:", np.sum(DataAnalytics.arr))
+            print()
             
         elif choice == 2:
             print("Mean:", np.mean(DataAnalytics.arr))
+            print()
             
         elif choice == 3:
             print("Median:", np.median(DataAnalytics.arr))
-        
+            print()
+            
         elif choice == 4:
             print("Standard Deviation:", np.std(DataAnalytics.arr))
+            print()
             
         elif choice == 5:
             print("Variance:", np.var(DataAnalytics.arr))
+            print()
             
         else:
             print("Invalid choice!")
-
+            return
 
 obj = DataAnalytics()        
 while True:
@@ -270,8 +288,8 @@ while True:
         
     elif choice==6:
         print("Exit")
-        break
-    
+        break 
     else:
-        print("Your choice is not valid!")     
+        print("Your choice is not valid!")
+        break     
 
