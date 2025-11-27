@@ -2631,111 +2631,120 @@ my_dict={
 
 
 
-import numpy as np
+# import numpy as np
 
-class DataAnalytics:
-    arr = None
+# class DataAnalytics:
+#     arr = None
     
-    def create_array(self):
-        print("Select the type of array to create: ")
-        print("1. 1D Array")
-        print("2. 2D Array")
-        print("3. 3D Array")
+#     def create_array(self):
+#         print("Select the type of array to create: ")
+#         print("1. 1D Array")
+#         print("2. 2D Array")
+#         print("3. 3D Array")
         
-        choice = int(input("Enter your choice : "))
+#         choice = int(input("Enter your choice : "))
 
-        if choice == 1:
-            ele = list(map(int, input("Enter elements (space separated): ").split()))
-            self.array = np.array(ele)
-            DataAnalytics.arr = self.array     # Store array
+#         if choice == 1:
+#             ele = list(map(int, input("Enter elements (space separated): ").split()))
+#             self.array = np.array(ele)
+#             DataAnalytics.arr = self.array     # Store array
 
-            print("1D Numpy Array:", self.array)
+#             print("1D Numpy Array:", self.array)
 
-        elif choice == 2:
-            rows = int(input("Enter number of rows: "))
-            cols = int(input("Enter number of columns: "))
-            total = rows * cols
+#         elif choice == 2:
+#             rows = int(input("Enter number of rows: "))
+#             cols = int(input("Enter number of columns: "))
+#             total = rows * cols
 
-            print(f"Enter {total} elements separated by space:")
-            elements = list(map(int, input().split()))
+#             print(f"Enter {total} elements separated by space:")
+#             elements = list(map(int, input().split()))
 
-            self.array = np.array(elements).reshape(rows, cols)
-            DataAnalytics.arr = self.array     # store array
+#             self.array = np.array(elements).reshape(rows, cols)
+#             DataAnalytics.arr = self.array     # store array
 
-            print("\nArray Created Successfully ✔")
-            print("Your 2D Array:\n", self.array)
+#             print("\nArray Created Successfully ✔")
+#             print("Your 2D Array:\n", self.array)
 
-        elif choice == 3:
-            x = int(input("Enter dimension 1: "))
-            y = int(input("Enter dimension 2: "))
-            z = int(input("Enter dimension 3: "))
-            total = x * y * z
+#         elif choice == 3:
+#             x = int(input("Enter dimension 1: "))
+#             y = int(input("Enter dimension 2: "))
+#             z = int(input("Enter dimension 3: "))
+#             total = x * y * z
 
-            print(f"Enter {total} elements separated by space:")
-            elements = list(map(int, input().split()))
+#             print(f"Enter {total} elements separated by space:")
+#             elements = list(map(int, input().split()))
 
-            self.array = np.array(elements).reshape(x, y, z)
-            DataAnalytics.arr = self.array     # store array
+#             self.array = np.array(elements).reshape(x, y, z)
+#             DataAnalytics.arr = self.array     # store array
 
-            print("\nArray Created Successfully ✔")
-            print("Your 3D Array:\n", self.array)
+#             print("\nArray Created Successfully ✔")
+#             print("Your 3D Array:\n", self.array)
 
-        else:
-            print("Invalid choice!")
+#         else:
+#             print("Invalid choice!")
 
-    def math(self):
-        if DataAnalytics.arr is None:
-            print("❌ First create an array!")
-            return
+#     def math(self):
+#         if DataAnalytics.arr is None:
+#             print("❌ First create an array!")
+#             return
         
-        print("\nChoose a Mathematical Operation:")
-        print("1. Addition")
+#         print("\nChoose a Mathematical Operation:")
+#         print("1. Addition")
         
-        choice = int(input("Enter your choice : "))
+#         choice = int(input("Enter your choice : "))
 
-        if choice == 1:
-            print("\nOriginal Array:")
-            print(DataAnalytics.arr)
+#         if choice == 1:
+#             print("\nOriginal Array:")
+#             print(DataAnalytics.arr)
 
-            total = DataAnalytics.arr.size
-            print(f"\nEnter {total} elements for second array:")
-            elements2 = list(map(int, input().split()))
+#             total = DataAnalytics.arr.size
+#             print(f"\nEnter {total} elements for second array:")
+#             elements2 = list(map(int, input().split()))
 
-            arr2 = np.array(elements2).reshape(DataAnalytics.arr.shape)
+#             arr2 = np.array(elements2).reshape(DataAnalytics.arr.shape)
 
-            print("\nSecond Array:")
-            print(arr2)
+#             print("\nSecond Array:")
+#             print(arr2)
 
-            result = DataAnalytics.arr + arr2
-            print("\nResult of Addition:")
-            print(result)
-        else:
-            print("Other operations not implemented yet!")
+#             result = DataAnalytics.arr + arr2
+#             print("\nResult of Addition:")
+#             print(result)
+#         else:
+#             print("Other operations not implemented yet!")
 
 
-# ---------------- MAIN MENU --------------------
+# # ---------------- MAIN MENU --------------------
 
-obj = DataAnalytics()
+# obj = DataAnalytics()
 
-while True:
-    print("\n=========================================")
-    print("Welcome to Numpy Analyzer")
-    print("=========================================")
-    print("1. Create Array")
-    print("2. Math Operations")
-    print("3. Exit")
+# while True:
+#     print("\n=========================================")
+#     print("Welcome to Numpy Analyzer")
+#     print("=========================================")
+#     print("1. Create Array")
+#     print("2. Math Operations")
+#     print("3. Exit")
 
-    choice = int(input("Enter your choice : "))
+#     choice = int(input("Enter your choice : "))
 
-    if choice == 1:
-        obj.create_array()
+#     if choice == 1:
+#         obj.create_array()
 
-    elif choice == 2:
-        obj.math()
+#     elif choice == 2:
+#         obj.math()
 
-    elif choice == 3:
-        print("Exit Successfully!")
-        break
+#     elif choice == 3:
+#         print("Exit Successfully!")
+#         break
 
-    else:
-        print("Invalid Choice!")
+#     else:
+#         print("Invalid Choice!")
+
+
+
+
+# name="Tanvi"
+# print(name)
+
+name=input("Enter your name : ")
+print(name)
