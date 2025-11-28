@@ -182,34 +182,79 @@ class DataAnalytics:
     
     def aggre(self):
         print("Choose an aggregate/statistical operation: ")
-        print("1. Sum")
-        print("2. Mean")
-        print("3. Median")
-        print("4. Standard Deviation")
-        print("5. Variance")
+        print("1. Aggregate operation")
+        print("2. Statistical operation\n")
         
-        choice=int(input("Enter your choice : "))
+        choice=int(input("Enter your choice :"))
         
-        print("\nOriginal Array :", DataAnalytics.arr)
         if choice==1:
-            print("Sum:", np.sum(DataAnalytics.arr))
+            print("1. Sum")
+            print("2. Mean")
+            print("3. Median")
+            print("4. Standard Deviation")
+            print("5. Variance")
+            
+            choice=int(input("Enter your choice : "))
+            
+            print("\nOriginal Array :", DataAnalytics.arr)
+            if choice==1:
+                print("Sum:", np.sum(DataAnalytics.arr))
+                    
+            elif choice == 2:
+                print("Mean:", np.mean(DataAnalytics.arr))
+                    
+            elif choice == 3:
+                print("Median:", np.median(DataAnalytics.arr))
+                    
+            elif choice == 4:
+                print("Standard Deviation:", np.std(DataAnalytics.arr))
+                    
+            elif choice == 5:
+                print("Variance:", np.var(DataAnalytics.arr))
+                    
+            else:
+                print("Invalid choice!")
+                return
+            
+        elif choice==2:
+            print("1. Minimum values")
+            print("2. Maximum values")
+            print("3. Percentiles")
+            print("4. Correlation coefficients between arrays")
+            
+            choice=int(input("Enter your choice : "))
+            
+            if choice==1:
+                print("\nOriginal Array :", DataAnalytics.arr)
+                print("Minimum values:", np.min(DataAnalytics.arr))
                 
-        elif choice == 2:
-            print("Mean:", np.mean(DataAnalytics.arr))
+            elif choice==2:
+                print("\nOriginal Array :", DataAnalytics.arr)
+                print("Maximum values:", np.max(DataAnalytics.arr))
+            
+            elif choice==3:
+                print("\nOriginal Array :", DataAnalytics.arr)
+                p = float(input("Enter percentile (0-100): "))
+                result = np.percentile(DataAnalytics.arr, p)
+                print(f"{p}th Percentile:", result)
                 
-        elif choice == 3:
-            print("Median:", np.median(DataAnalytics.arr))
-                
-        elif choice == 4:
-            print("Standard Deviation:", np.std(DataAnalytics.arr))
-                
-        elif choice == 5:
-            print("Variance:", np.var(DataAnalytics.arr))
-                
+            elif choice == 4:
+                ele=list(map(int, input("Enter 1D array element: ").split()))
+                self.array = np.array(ele)
+                DataAnalytics.arr = self.array
+                arr2 = list(map(float, input("Enter second array values separated by space:").split()))
+                arr2 = np.array(arr2)
+
+                corr = np.corrcoef(DataAnalytics.arr, arr2)[0, 1]
+                print("Correlation Coefficient between arrays:", corr)                
+            else:
+                print("Invalid choice!")
+                return
+            
         else:
             print("Invalid choice!")
             return
-
+                
 obj = DataAnalytics()        
 while True:
     print("Welcome to the Numpy Analyzer!")
