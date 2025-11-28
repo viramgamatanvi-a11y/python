@@ -56,7 +56,7 @@ class DataAnalytics:
             print("\nSecond Array:")
             print(arr2)
             result = DataAnalytics.arr + arr2
-            print("\nResult of Addition\n:",result)
+            print("\nResult of Addition :\n",result)
 
         elif choice == 2:
             total = DataAnalytics.arr.size
@@ -157,6 +157,7 @@ class DataAnalytics:
                     print()                                  
                     sorted_arr = np.sort(DataAnalytics.arr)
                     print("Ascending Sorted Array:", sorted_arr)
+                    return
 
                 elif choice==2:
                     print("Original Array:")
@@ -164,9 +165,11 @@ class DataAnalytics:
                     print()                                  
                     sorted_arr = np.sort(DataAnalytics.arr)[::-1]
                     print("Descending Sorted Array:", sorted_arr)
+                    return
                         
                 else:
                     print("Invalid choice!")
+                    return
                 
         elif choice == 3:
             x = int(input("Enter value to filter greater than: "))
