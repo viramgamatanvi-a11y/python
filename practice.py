@@ -2746,5 +2746,36 @@ my_dict={
 # name="Tanvi"
 # print(name)
 
-name=input("Enter your name : ")
-print(name)
+# name=input("Enter your name : ")
+# print(name)
+
+
+# print("Hello Tanvi",end="&")
+# print("Welcome")
+
+
+# hiiii="TAn"
+# print(hiiii)
+
+
+# hii=input()
+# print(hii)
+
+
+
+# hii=input("Hwllo")
+# print(hii)
+
+
+# name=input("Enter your name : ")
+# print(name)
+
+
+
+# cao="Tanvi"
+# del cao
+# print(cao)
+
+# cou="Python"
+# print(id(cou))
+# print(type(cou))
