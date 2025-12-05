@@ -3609,3 +3609,159 @@ def save_visualization(self):
     
     plt.savefig(file)      
     print(f"Visualization saved successfully as {file}!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1. Add MERGE/COMBINE Function
+
+
+def combine_data(self):
+    print("== Combine (Merge Two Datasets) ==")
+    file2 = input("Enter path of second dataset (CSV): ")
+
+    try:
+        data2 = pd.read_csv(file2)
+        print("File 2 Loaded Successfully")
+
+        col = input("Enter column name to merge on: ")
+        self.data = pd.merge(self.data, data2, on=col, how="inner")
+
+        print("\n=== MERGED DATA ===")
+        print(self.data.head())
+
+    except FileNotFoundError:
+        print("File Not Found! Please enter correct path")
+
+
+
+
+
+
+# 2) Split Data Function (Train/Test Style)
+
+
+
+def split_data(self):
+    print("== Split Data ==")
+    percentage = float(input("Enter split percentage (like 0.7 for 70%) : "))
+    
+    split_point = int(len(self.data) * percentage)
+    
+    part1 = self.data[:split_point]
+    part2 = self.data[split_point:]
+
+    print("\n===== First Split =====")
+    print(part1.head())
+
+    print("\n===== Second Split =====")
+    print(part2.head())
+
+
+
+
+
+
+# 3) Pivot Table Function
+
+
+
+def pivot_table(self):
+    print("== Pivot Table ==")
+    index = input("Enter index column: ")
+    cols = input("Enter column to pivot: ")
+    values = input("Enter values column: ")
+
+    try:
+        p_table = pd.pivot_table(self.data, index=index, columns=cols, values=values, aggfunc='sum')
+        print("\n===== PIVOT TABLE RESULT =====")
+        print(p_table)
+    except Exception as e:
+        print("Error in Pivot Table :", e)
+
+
+
+
+
+
+# Indexing & Slicing Function
+
+
+def indexing_slicing(self):
+    print("== Indexing & Slicing ==")
+    print("1. Slice rows (start:end)")
+    print("2. Select specific column")
+
+    choice = int(input("Enter choice: "))
+
+    if choice == 1:
+        s = int(input("Enter starting row: "))
+        e = int(input("Enter ending row: "))
+        print(self.data.iloc[s:e])
+
+    elif choice == 2:
+        col = input("Enter column name: ")
+        if col in self.data.columns:
+            print(self.data[col])
+        else:
+            print("Column not found")
+
+
+
+
+# File Handling: Load Dataset with try–except
+
+
+
+def load_dataset(self):
+    print("== Load Dataset ==")
+    
+    file = input("Enter the path of the dataset (CSV file): ")
+    try:
+        self.data = pd.read_csv(file)
+        print("\nDataset Loaded Successfully!\n")
+    except FileNotFoundError:
+        print("ERROR: File Not Found. Please enter correct path.")
+
+
+

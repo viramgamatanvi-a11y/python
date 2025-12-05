@@ -259,6 +259,52 @@ class SalesDataAnalyzer:
         plt.savefig(file)      
         print(f"Visualization saved successfully as {file}!")
         
+    def indexing_values(self):
+        print("== Indexing, Slicing and Pivot tabel ==")
+        print("1. Indexing")
+        print("2. Slicing")
+        print("3. Pivot tabel")
+        
+        choice=int(input("Enter your choice : "))
+        
+        if choice==1:
+            print("\n== INDEXING ==")
+            print("Available Columns:", list(self.data.columns))
+
+            row = int(input("Enter row index: "))
+            col = input("Enter column name: ")
+
+            result = self.data.loc[row, col]
+            print(f"\nValue at [{row}] and '{col}' is: {result}")
+            
+        elif choice==2:
+            print("\n== SLICING ==")
+            print("Available Columns:", list(self.data.columns))
+
+            start = int(input("Enter start row index: "))
+            end = int(input("Enter end row index: "))
+            col = input("Enter column name: ")
+
+            result = self.data.loc[start:end, col]
+            print(f"\nSliced data from row {start} to {end} for column '{col}':\n")
+            print(result)
+            
+        elif choice==3:
+            print("\n== PIVOT TABLE ==")
+            print("Available Columns:", list(self.data.columns))
+
+            index_col = input("Enter column for rows (index): ")
+            column_col = input("Enter column for columns: ")
+            values_col = input("Enter column for values: ")
+
+            result = self.data.pivot_table(index=index_col, columns=column_col, values=values_col, aggfunc='sum')
+            print("\nPivot Table:\n")
+            print(result)
+            
+        else:
+            print("Your choice is not valid!")
+            return
+    
     def __del__(self):
         print("Destructor Called")
 
@@ -276,7 +322,8 @@ while True:
     print("5. Generate Descriptive Statistics")
     print("6. Data Visualization")
     print("7. Save Visualization")
-    print("8. Exit")
+    print("8. Indexing, Slicing and Pivot tabel")
+    print("9. Exit")
 
     choice=int(input("Enter your choice : "))
     
@@ -302,6 +349,9 @@ while True:
         obj.save_visualization()
         
     elif choice==8:
+        obj.indexing_values()
+        
+    elif choice==9:
         print("Exiting")
         break
         
