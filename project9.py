@@ -10,8 +10,11 @@ class SalesDataAnalyzer:
     def load_dataset(self):
         print("== Load Dataset ==")
         file = input("Enter the path of the dataset (CSV file): ")
-        self.data = pd.read_csv(file)
-        print("\nDataset Loaded Successfully!\n")
+        try:
+            self.data = pd.read_csv(file)
+            print("\nDataset Loaded Successfully!\n")
+        except FileNotFoundError:
+            print("ERROR: File Not Found. Please enter correct path.")
         
     def explore_data(self):
         print("== Explore Dataset ==")
@@ -45,7 +48,6 @@ class SalesDataAnalyzer:
             
         else:
             print("Your choice is not valid!")
-            return
             
     def clean_data(self):
         print("== Perform Dataset Operations ==")
@@ -73,14 +75,12 @@ class SalesDataAnalyzer:
             else:
                 print("Column does not exist!")
                 
-        elif choice==3:
+        elif choice == 3:
             print("== Sort Data ==")
-            col = input("Enter column to sort: ")
+            col = input("Enter column to sort : ")
             if col in self.data.columns:
-                order = input("Ascending? (yes/no): ")
-                ascending = True if order.lower() == "yes" else False
-                self.data = self.data.sort_values(by=col, ascending=ascending)
-                print(f"Data sorted by '{col}' successfully!")
+                self.data = self.data.sort_values(by=col, ascending=True)
+                print(f"Data sorted by '{col}' in ascending order successfully !")
             else:
                 print("Invalid column name!")
                 
@@ -91,7 +91,6 @@ class SalesDataAnalyzer:
 
             if col in self.data.columns:
                 filtered = self.data[self.data[col] == val]
-                print("\n===== FILTERED DATA =====")
                 print(filtered)
             else:
                 print("Invalid column name!")
@@ -107,7 +106,6 @@ class SalesDataAnalyzer:
 
         else:
             print("Your choice is not valid!")
-            return
         
     def handle_missing_data(self):
         print("== Handle Missing Data ==")
@@ -288,7 +286,7 @@ class SalesDataAnalyzer:
             result = self.data.loc[start:end, col]
             print(f"\nSliced data from row {start} to {end} for column '{col}':\n")
             print(result)
-            
+          
         elif choice==3:
             print("\n== PIVOT TABLE ==")
             print("Available Columns:", list(self.data.columns))
@@ -306,7 +304,7 @@ class SalesDataAnalyzer:
             return
     
     def __del__(self):
-        print("Destructor Called")
+        del self.data
 
 obj=SalesDataAnalyzer()
 
