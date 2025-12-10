@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 class SalesDataAnalyzer:
     def __init__(self):
         self.data = None
-        
+
     def load_dataset(self):
         print("== Load Dataset ==")
         file = input("Enter the path of the dataset (CSV file): ")
