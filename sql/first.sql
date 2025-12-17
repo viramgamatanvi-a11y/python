@@ -1,8 +1,7 @@
-CREATE database companydata;
+CREATE DATABASE companydata;
 
 USE companydata;
 
--- Create a sample table
 CREATE TABLE Employees (
     EmpID INT PRIMARY KEY,
     Name VARCHAR(100),
@@ -46,5 +45,3 @@ DELETE FROM Employees WHERE EmpID = 3;
 
 -- Reset auto-increment after deletion (if using AUTO_INCREMENT)
 ALTER TABLE Employees AUTO_INCREMENT = 1;
-
-
