@@ -1,0 +1,9 @@
+Append->Add one element at the end of a list.
+
+Insert->Add an element at a specific position (index) in a list.
+
+Del->Specific Index Delete.
+
+Remove->Specific Value Delete.
+
+Pop-> Removes and returns an element at a given index (default is the last item). 

@@ -48,7 +48,7 @@ class SalesDataAnalyzer:
             
         else:
             print("Your choice is not valid!")
-            
+           
     def clean_data(self):
         print("== Perform Dataset Operations ==")
         print("1. Add Column")
