@@ -1,0 +1,41 @@
+1. Project Summary
+
+This analysis focuses on evaluating retail sales performance using a dataset of 500 transactions. The objective was to uncover meaningful business insights across different dimensions such as time, region, product, and sales channels.
+
+Data processing and aggregation were performed using SQL, while an interactive dashboard was developed in Power BI to present the findings in a clear and visual format.
+
+Key performance indicators (KPIs) analyzed include:
+
+Total Revenue
+Total Transactions
+Total Customers
+Average Order Value (AOV)
+
+Additionally, trends and comparisons were explored to understand business performance from multiple perspectives.
+
+2. Analytical Findings
+
+Sales Trends:
+Revenue remains consistent overall, with noticeable spikes during certain months, indicating seasonal buying behavior.
+
+Regional Performance:
+Sales distribution across regions is relatively uniform, suggesting a balanced market presence.
+
+Product Contribution:
+A limited number of products generate a significant share of total revenue, highlighting the importance of top-selling items.
+
+Sales Channels:
+Both online and offline channels contribute effectively, with online sales showing stronger performance during specific periods.
+
+Category Insights:
+Variations in category performance reflect evolving customer preferences and demand patterns.
+
+3. Strategic Recommendations
+Align marketing campaigns with high-demand periods to maximize sales impact.
+Enhance digital marketing efforts to further boost online sales performance.
+Implement customer retention strategies such as loyalty programs based on purchase behavior.
+Reassess underperforming categories by optimizing pricing, promotions, or product mix.
+Maintain continuous monitoring of KPIs through dashboards for better decision-making.
+4. Final Remarks
+
+The dashboard provides a comprehensive view of sales performance, enabling quick and data-driven decision-making. Consistent tracking of these insights will support long-term business growth and improved customer satisfaction.
